@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
 
+  <div class="verthorz">
     <div class="square">
         <input type="text" name="a" id="calc" placeholder="reqem daxil edin">
         <button onclick="square()">hesabla</button>
@@ -20,12 +22,17 @@
         <input type="text" name="x" id="length" placeholder="uzunluq daxil edin">
         <input type="text" name="y" id="height" placeholder="hundurluk daxil edin">
         <button onclick="rectan()">hesabla</button>
+        <div>
+            <span id="arena"></span>
+            <span id="perimetr"></span>
+        </div>
     </div>
     <div class="register">
         <input type="email" name="c" id="mail" placeholder="mailinizi daxil edin" >
         <input type="password" name="d" id="password" placeholder="parolu daxil edin">
         <button id="submit" onclick="register">daxil ol</button>
     </div>
+  </div>
     <script src="./assets/js/index.js"></script>
 </body>
 </html>

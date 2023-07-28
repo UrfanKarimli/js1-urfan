@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.verthorz {
+  background-color: rgba(144, 240, 240, 0.877);
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.verthorz .square {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.verthorz .square div {
+  display: flex;
+  flex-direction: column;
+}
+.verthorz .square div span {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(17, 63, 214, 0.8666666667);
+}
+.verthorz .square input {
+  background-color: rgba(210, 255, 255, 0.877);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(17, 63, 214, 0.8666666667);
+  text-align: center;
+  width: 150px;
+  height: 30px;
+}
+.verthorz .square button {
+  width: 150px;
+  height: 30px;
+}
+.verthorz .rectangular {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.verthorz .rectangular div {
+  display: flex;
+  flex-direction: column;
+}
+.verthorz .rectangular div span {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(17, 63, 214, 0.8666666667);
+}
+.verthorz .rectangular input {
+  background-color: rgba(210, 255, 255, 0.877);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(17, 63, 214, 0.8666666667);
+  text-align: center;
+  width: 150px;
+  height: 30px;
+}
+.verthorz .rectangular button {
+  width: 150px;
+  height: 30px;
+}
+.verthorz .register {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.verthorz .register input {
+  background-color: rgba(221, 247, 247, 0.877);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgba(17, 63, 214, 0.8666666667);
+  text-align: center;
+  width: 250px;
+  height: 30px;
+}
+.verthorz .register button {
+  width: 150px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */

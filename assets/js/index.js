@@ -26,8 +26,8 @@ function square () {
     a=parseInt(document.getElementById("calc").value);
     area=a*a;
     perimeter=4*a;
-    document.getElementById("area").innerHTML="kvadratin sahesi"+area;
-    document.getElementById("perimeter").innerHTML="kvadratin perimetri"+perimeter;
+    document.getElementById("area").innerHTML="kvadratin sahesi:"+area;
+    document.getElementById("perimeter").innerHTML="kvadratin perimetri:"+perimeter;
 }
 
 function rectan() {
@@ -36,8 +36,8 @@ function rectan() {
     y=parseInt(document.getElementById("height").value);
     area=x*y;
     perimeter=2*(x+y)
-    document.getElementById("area").innerHTML="duzbucaqlinin sahesi"+area;
-    document.getElementById("perimeter").innerHTML="duzbucaqlinin perimeteri"+perimeter;
+    document.getElementById("arena").innerHTML="duzbucaqlinin sahesi:"+area;
+    document.getElementById("perimetr").innerHTML="duzbucaqlinin perimeteri:"+perimeter;
 }
 
 function register () {
